@@ -6,10 +6,10 @@ const HomeContact = () => {
       <div className="container mx-auto px-4">
         <div className=" mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-center text-gray-800">Contact Us</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
             
             {/* Map */}
-            <div className="p-8 bg-white shadow-md rounded-lg">
+            <div className="p-8 bg-white  rounded-lg">
             <div className="mb-6">
                 <h3 className="text-lg font-semibold mb-2 text-gray-700">Address</h3>
                 <p className="text-gray-600">Kathmandu, Nepal</p>
@@ -29,7 +29,7 @@ const HomeContact = () => {
             </div>
 
             {/* Contact Info & Form */}
-            <div className="p-8 bg-white shadow-md rounded-lg">
+            <div className="p-8 bg-white rounded-lg">
               <h2 className="text-2xl font-bold mb-4 text-gray-800">Send Us a Message</h2>
               <form>
                 <div className="mb-4">
