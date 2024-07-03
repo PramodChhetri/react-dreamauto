@@ -23,7 +23,7 @@ export const Carousel = () => {
   };
 
   return (
-    <div className=" relative">
+    <div className=" relative bg-white">
       <Slider {...settings}>
         <div className="xl:h-[40rem] relative">
           <img src="https://via.placeholder.com/800x400?text=Slide+1" alt="Slide 1" className="w-full h-full object-cover " />

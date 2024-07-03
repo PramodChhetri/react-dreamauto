@@ -9,14 +9,14 @@ import HomeContact from '../components/HomeContact'
 
 const Index = () => {
   return (
-    <div className='bg-gray-100'>
+    <div className='bg-gray-100 font-poppins"'>
     <Navbar/>
     <Carousel/>
     <HomeAboutUs/>
     <section className="py-16 ">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between mb-6">
-          <h3 className="text-2xl font-bold text-gray-800">Top Products</h3>
+          <h3 className="text-3xl font-bold text-gray-800">Top Products</h3>
           <span className="text-[#DF133A] hover:text-red-800 hover:scale-105 cursor-pointer hover:underline">See All Products</span>
         </div>
         

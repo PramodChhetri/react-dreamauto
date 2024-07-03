@@ -34,7 +34,7 @@ const HomeTeam = () => {
     <section className="bg-white py-12">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
-          <h2 className="text-4xl font-bold text-gray-800">Our Team</h2>
+          <h2 className="text-3xl font-bold text-gray-800">Our Team</h2>
           <p className="text-gray-600 mt-2">Meet the people behind our success.</p>
         </div>
 
